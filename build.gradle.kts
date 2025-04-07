@@ -3,7 +3,6 @@ plugins {
 }
 
 group = "ltd.lulz"
-version = "0.0.1-SNAPSHOT"
 
 java {
     toolchain {
