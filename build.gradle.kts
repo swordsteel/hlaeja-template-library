@@ -1,24 +1,9 @@
 plugins {
-    kotlin("jvm") version "1.9.25"
-}
-
-group = "ltd.lulz"
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-    }
+    alias(hlaeja.plugins.kotlin.jvm)
+    alias(hlaeja.plugins.ltd.hlaeja.plugin.library)
 }
 
 dependencies {
 }
 
-kotlin {
-    compilerOptions {
-        freeCompilerArgs.addAll("-Xjsr305=strict")
-    }
-}
-
-tasks.withType<Test> {
-    useJUnitPlatform()
-}
+group = "ltd.lulz"

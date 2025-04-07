@@ -2,6 +2,20 @@
 
 {description}
 
+## Publishing library
+
+### Publish library locally
+
+```shell
+./gradlew clean build publishToMavenLocal
+```
+
+### Publish library to repository
+
+```shell
+./gradlew clean build publish
+```
+
 ### Global gradle properties
 
 To authenticate with Gradle to access repositories that require authentication, you can set your user and token in the `gradle.properties` file.
