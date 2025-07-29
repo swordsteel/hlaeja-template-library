@@ -2,7 +2,11 @@
 
 {description}
 
-## Publishing library
+## Releasing Library
+
+Run release pipeline from `master` branch.
+
+## Publishing Library
 
 ### Publish library locally
 

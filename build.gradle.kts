@@ -1,6 +1,6 @@
 plugins {
     alias(hlaeja.plugins.kotlin.jvm)
-    alias(hlaeja.plugins.ltd.hlaeja.plugin.library)
+    alias(hlaeja.plugins.library)
 }
 
 dependencies {
@@ -9,4 +9,4 @@ dependencies {
     testRuntimeOnly(hlaeja.junit.platform.launcher)
 }
 
-group = "ltd.lulz"
+group = "ltd.hlaeja"
